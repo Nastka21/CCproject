@@ -1,3 +1,266 @@
 <resources>
     <string name="app_name">Cinco Cuisine</string>
+    <string name="carbonara_txt">Description here</string>
+    <string name="irish_lamb_stew">Irish Lamb Stew</string>
+    <string name="recipe1_txt"> <b>Ingredients:</b> \n
+
+
+
+\n
+· 1 tablespoon oil \n
+
+        \n
+
+· 1 pound lamb, cut into bite sized pieces \n
+
+         \n
+
+· 1 onions, diced \n
+
+         \n
+· 2 cloves garlic, chopped \n
+
+         \n
+
+· 2 tablespoons flour \n
+
+         \n
+· 1 can Guinness \n
+
+         \n
+· 4 cups beef stock \n
+
+         \n
+· 1 teaspoon rosemary, chopped \n
+
+         \n
+· 1 teaspoon thyme, chopped \n
+
+         \n
+· 1 bay leaf \n
+
+         \n
+· salt and pepper to taste \n
+
+         \n
+· 2 white potatoes, cut into bite sized pieces \n
+
+         \n
+· 4 carrots, cut into bite sized pieces \n
+
+         \n
+· 1 handful parsley, chopped \n
+
+         \n
+        <b>Directions:</b>\n
+
+         \n
+1. Heat the oil in a large pot over medium-high heat, add the lamb and brown on each side.\n
+
+         \n
+2. Add the onions and saute until tender, about 5-7 minutes.\n
+
+         \n
+3. Add the garlic and saute until fragrant, about 1 minute.\n
+
+         \n
+4. Sprinkle in the flour and stir.\n
+
+         \n
+5. Add the Guinness and beef stock.\n
+
+         \n
+6. Add the rosemary, thyme, bay leaf, salt and pepper.\n
+
+         \n
+7. Bring to a boil, reduce the heat and simmer until the lamb it fork tender, about 1-2 hours.\n
+
+         \n
+8. Add the potatoes and carrots and some more beef stock to cover.\n
+
+         \n
+9. Bring to a boil, reduce the heat and simmer until they are tender, about 20 minutes depending on cut.\n
+
+         \n
+10. Plate and garnish with parsley.</string>
+
+    <string name="recipe2_txt" > <b>Ingredients:</b> \n
+
+         \n
+
+· 2 Ducks\n
+
+         \n
+· 140g caster sugar \n
+
+         \n
+· 6-star anise seeds \n
+
+         \n
+· Large piece ginger sliced\n
+
+         \n
+· Small bunch spring onions, roughly choppers \n
+
+         \n
+· 2 tbsp malt syrup or maltose(available in most Chinese supermarkets)\n
+
+         \n
+· 3 tbsp red win vinegar\n
+
+         \n
+<b>Directions:</b>\n
+
+         \n
+1. The day before, soak 4 wooden skewers in water for 20 mins. \n
+        Wash the ducks inside and out with cold water, drain and pat dry with kitchen paper. \n
+        Mix together the sugar, star anise, ginger, spring onions and a few good pinches of salt, then use this to fill the cavities.\n
+        Close the cavities with wooden skewers and set aside.\n
+
+         \n
+2. In a small bowl, mix the maltose and 2 tbsp of the vinegar.\n
+        Add the remaining vinegar to a jug of boiling water and pour over the ducks.\n
+        (The boiling water opens up the pores, while the vinegar helps to strip some of the waxiness from the skin, so it will be more receptive to the maltose, which adds sweetness and a lacquered caramel colour.)\n
+        Smear the maltose mixture over the ducks, then place them in a large plastic container and put in the fridge overnight, uncovered\n
+
+         \n
+3. To cook, heat oven to 220C/200C fan/ gas 7. \n
+        Put a little water in the bottom of a large roasting tin, place the ducks on a rack over the top and cover with foil. \n
+        Roast for about 45 mins. Take off the foil and roast for another 45 mins – the duck must be well done! \n
+        Take the duck out of the oven and let it rest for a good 20 mins before carving.</string>
+
+    \n
+
+    <string name="recipe3_txt"> <b>Ingredients:</b> \n
+
+        \n
+
+· 1 octopus of 2 kilos \n
+
+        \n
+
+· 500 grams of potatoes\n
+
+        \n
+
+· Paprika\n
+
+        \n
+
+· Spicy paprika\n
+
+        \n
+
+· Salt\n
+
+        \n
+
+· Olive oil\n
+
+        \n
+
+        <b>Directions:</b>\n
+
+        \n
+
+1.If its a fresh octopus first we must soften the octopus, there are two ways to this,\n
+        you can either beat it with a wooden rolling pin until its texture softens or freeze it for two days and defrost it the day before cooking it in the fridge \n
+
+        \n
+2.Dice the onion and add it to a pan with water. When it begins to boil is time to add the octopus. \n
+        Grab its head and dip it in the pan three times. After the third time you put it in and take it out add to the pan permanently.\n
+        Cook for 50 minutes \n
+
+        \n
+
+3.Once cooked remove the pan from the fire and let it cool for 15 minutes.\n
+
+         \n
+
+4.Using the same water in which the octopus was cooked, cook the potatoes (previously peeled and diced). \n
+        While they boil dice the octopus in medium sized slices.\n
+
+        \n
+
+5.When the potatoes are cooked remove from water and add to a platter. We add the octopus slices on top.\n
+
+        \n
+
+6.The final touch is adding the olive oil and paprika and abundant coarse salt. You can prepare a vinaigrette previously or add the ingredients separately.</string>
+
+
+
+
+
+<string name="recipe4_txt">
+    <b> Ingredients:</b> \n
+
+     \n
+
+· 1 Tbsp olive oil or unsalted butter \n
+
+     \n
+
+· 1/2 pound pancetta or thick cut bacon, diced \n
+
+     \n
+
+· 1-2 garlic cloves, minced, about 1 teaspoon (optional) \n
+
+     \n
+
+· 3-4 whole eggs \n
+
+     \n
+
+· 1 cup grated parmesan or pecorino cheese \n
+
+     \n
+
+· 1 pound spaghetti pasta (or bucatini or fettuccine) \n
+
+     \n
+
+· Salt and black pepper to taste \n
+
+     \n
+
+    <b>Directions:</b> \n
+     \n
+
+1. Heat pasta water: Put a large pot of salted water on to boil (1 Tbsp salt for every 2 quarts of water.) \n
+
+     \n
+
+2. Sauté pancetta/bacon and garlic: While the water is coming to a boil, heat the olive oil in a large sauté pan over medium heat.  \n
+    Add the bacon or pancetta and cook slowly until crispy. \n
+    Add the garlic (if using) and cook another minute, then turn off the heat and put the pancetta and garlic into a large bowl. \n
+
+     \n
+
+3. Beat eggs and half of the cheese: In a small bowl, beat the eggs and mix in about half of the cheese. \n
+
+     \n
+
+4. Cook pasta: Once the water has reached a rolling boil, add the dry pasta, and cook, uncovered, at a rolling boil. \n
+
+     \n
+
+5. Toss pasta with pancetta/bacon: When the pasta is al dente (still a little firm, not mushy), use tongs to move it to the bowl with the bacon and garlic.  \n
+    Let it be dripping wet. Reserve some of the pasta water. \n
+
+     \n
+
+6.Move the pasta from the pot to the bowl quickly, as you want the pasta to be hot.  \n
+    It's the heat of the pasta that will heat the eggs sufficiently to create a creamy sauce.  \n
+    Toss everything to combine, allowing the pasta to cool just enough so that it doesn't make the eggs curdle when you mix them in.  \n
+
+     \n
+
+
+7. Add the beaten egg mixture: Add the beaten eggs with cheese and toss quickly to combine once more. \n
+    Add salt to taste. Add some pasta water back to the pasta to keep it from drying out. \n
+
+Serve at once with the rest of the parmesan and freshly ground black pepper.
+</string>
 </resources>

@@ -16,7 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".Recipes" />
+        <activity android:name=".Timers" />
+        <activity android:name=".Diet" />
+        <activity android:name=".Reviews" />
+        <activity android:name=".SlideAdapter" />
+        <activity android:name=".SlideAdapter2" />
+        <activity android:name=".Recipe1" />
+        <activity android:name=".Recipe2" />
+        <activity android:name=".Recipe3" />
+        <activity android:name=".Recipe4"></activity>
     </application>
 
 </manifest>

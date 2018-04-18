@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CincoCuisine.iml" filepath="$PROJECT_DIR$/CincoCuisine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainActivitiy2.java/MainActivitiy2.java.iml" filepath="$PROJECT_DIR$/MainActivitiy2.java/MainActivitiy2.java.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

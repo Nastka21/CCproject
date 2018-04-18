@@ -4,100 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.o.cincocuisine.SecondActivity"
+    tools:context="com.example.o.cincocuisine.Recipes"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="@color/backgroundcolor"
+    android:background="@color/backgroundcolor">
 
-    >
+
     <LinearLayout
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
+        
         <android.support.v7.widget.CardView
-            android:id="@+id/recipe_card"
+            android:id="@+id/recipe1"
             android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_height="195dp"
+            android:layout_margin="10dp" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center" >
                 <ImageView
-                    android:layout_height="64dp"
-                    android:layout_width="64dp"
-                    android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_android_black_24dp"
-                    android:padding="10dp"
-                    />
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/stew"
+                    /> 
                 <TextView
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Recipes"
-                />
+                    android:text="Irish Lamb Stew"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:background="@color/lightgray"
-                    android:layout_margin="10dp"
-                    />
+                    android:layout_margin="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Find a recipe"
+                    android:text="Click here to go to recipe"
                     android:padding="5dp"
-                    android:textColor="@android:color/darker_gray"/>
-            </LinearLayout>
+                    />
 
-            </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
-            android:id="@+id/timers_card"
-            android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_margin="10dp">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
-                <ImageView
-                    android:layout_height="64dp"
-                    android:layout_width="64dp"
-                    android:background="@drawable/circlebackgroundpink"
-                    android:src="@drawable/ic_av_timer_black_24dp"
-                    android:padding="10dp"
-                    />
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
-                    android:text="Timers"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightgray"
-                    android:layout_margin="10dp"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Set timers"
-                    android:padding="5dp"
-                    android:textColor="@android:color/darker_gray"/>
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/recipe2"
+            android:layout_width="160dp"
+            android:layout_height="195dp"
+            android:layout_margin="10dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center" >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/duck"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Chinese Roast Duck"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Click here to go to recipe"
+                    android:padding="5dp"
+                    />
 
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
     </LinearLayout>
     <LinearLayout
         android:clipToPadding="false"
@@ -107,102 +101,83 @@
         android:layout_height="wrap_content">
 
         <android.support.v7.widget.CardView
-            android:id="@+id/diet_card"
+            android:id="@+id/recipe3"
             android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_height="195dp"
+            android:layout_margin="10dp" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center" >
                 <ImageView
-                    android:layout_height="64dp"
-                    android:layout_width="64dp"
-                    android:background="@drawable/circlebackgroundgreen"
-                    android:src="@drawable/ic_attach_file_black_24dp"
-                    android:padding="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pulpo"
                     />
                 <TextView
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Recipes"
-                    />
+                    android:text="Pulpo a la Gallega"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:background="@color/lightgray"
-                    android:layout_margin="10dp"
-                    />
+                    android:layout_margin="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Find a recipe"
+                    android:text="Click here to go to recipe"
                     android:padding="5dp"
-                    android:textColor="@android:color/darker_gray"/>
+                    />
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/reviews_card"
+            android:id="@+id/recipe4"
             android:layout_width="160dp"
-            android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_height="195dp"
+            android:layout_margin="10dp" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center" >
                 <ImageView
-                    android:layout_height="64dp"
-                    android:layout_width="64dp"
-                    android:background="@drawable/circlebackgroundyellow"
-                    android:src="@drawable/ic_cake_black_24dp"
-                    android:padding="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/carbonara"
                     />
                 <TextView
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Timers"
-                    />
+                    android:text="Carbonara"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:background="@color/lightgray"
-                    android:layout_margin="10dp"
-                    />
+                    android:layout_margin="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Set timers"
+                    android:text="Click here to go to recipe"
                     android:padding="5dp"
-                    android:textColor="@android:color/darker_gray"/>
+                    />
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
-
     </LinearLayout>
 
 
-    <Button
-        android:id="@+id/btnLogout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="212dp"
-        android:text="Logout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
+
+
+
 </LinearLayout>
