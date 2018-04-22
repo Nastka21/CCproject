@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.o.cincocuisine.ProfileP">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/profile"
+        android:id="@+id/imageView5" />
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="48dp"
+        android:text="@string/your_username_is"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="210dp"
+        android:id="@+id/textView11" />
+
+    <TextView
+
+        android:id="@+id/text_username"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="40dp"
+        android:text="@string/your_name_is"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="276dp"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/text_name"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/text_username"
+        android:layout_alignStart="@+id/text_username"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="49dp"
+        android:text="@string/your_birthday_is"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="326dp"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/text_birthday"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignEnd="@+id/text_name"
+        android:layout_alignRight="@+id/text_name"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="46dp"
+        android:text="@string/your_interests_are"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/text_interest"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignLeft="@+id/text_name"
+        android:layout_alignStart="@+id/text_name"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+
+
+</RelativeLayout>

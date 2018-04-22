@@ -1,9 +1,14 @@
 <resources>
+
+
     <string name="app_name">Cinco Cuisine</string>
+
     <string name="carbonara_txt">Description here</string>
     <string name="irish_lamb_stew">Irish Lamb Stew</string>
-    <string name="recipe1_txt"> <b>Ingredients:</b> \n
+    <string name="recipe1_txt">
+        
 
+        <b>Ingredients:</b> \n
 
 
 \n
@@ -84,7 +89,7 @@
          \n
 10. Plate and garnish with parsley.</string>
 
-    <string name="recipe2_txt" > <b>Ingredients:</b> \n
+    <string name="recipe2_txt"> <b>Ingredients:</b> \n
 
          \n
 
@@ -189,10 +194,7 @@
 6.The final touch is adding the olive oil and paprika and abundant coarse salt. You can prepare a vinaigrette previously or add the ingredients separately.</string>
 
 
-
-
-
-<string name="recipe4_txt">
+    <string name="recipe4_txt">
     <b> Ingredients:</b> \n
 
      \n
@@ -263,4 +265,16 @@
 
 Serve at once with the rest of the parmesan and freshly ground black pepper.
 </string>
+    <string name="your_username_is">Your Username is:</string>
+    <string name="your_name_is">Your Name is:</string>
+    <string name="your_interests_are">Your interests are:</string>
+    <string name="your_birthday_is">Your Birthday is:</string>
+    <string name="simmer">Simmer for 20 minutes</string>
+    <string name="roast">Roast for 45 minutes</string>
+    <string name="cook">Cook for 50 minutes</string>
+    <string name="pasta">Cook for 12 minutes</string>
+    <string name="update">Click here to update your profile</string>
+    <string name="click">Clicke here to contact us</string>
+    <string name="email">Email: CincoCuisine@gmail.com</string>
+    <string name="address">Address: 7 Merrion Sq., Dublin 2.</string>
 </resources>

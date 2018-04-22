@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.o.cincocuisine.Timer3">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/octopus"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:text="@string/cook"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_countdown3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button_start_pause3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:layout_below="@+id/text_view_countdown3"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/button_reset3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:layout_below="@+id/text_view_countdown3"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/button_start_pause3"
+        android:layout_toRightOf="@+id/button_start_pause3"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:visibility="invisible"
+        tools:visibility="visible"/>
+
+</RelativeLayout>

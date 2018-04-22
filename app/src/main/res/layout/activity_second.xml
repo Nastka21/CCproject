@@ -31,7 +31,7 @@
                     android:layout_height="64dp"
                     android:layout_width="64dp"
                     android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_android_black_24dp"
+                    android:src="@drawable/ic_cake_black_24dp"
                     android:padding="10dp"
                     />
                 <TextView
@@ -120,7 +120,7 @@
                     android:layout_height="64dp"
                     android:layout_width="64dp"
                     android:background="@drawable/circlebackgroundgreen"
-                    android:src="@drawable/ic_attach_file_black_24dp"
+                    android:src="@drawable/ic_person_black_24dp"
                     android:padding="10dp"
                     />
                 <TextView
@@ -128,7 +128,7 @@
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Recipes"
+                    android:text="Your profile"
                     />
                 <View
                     android:layout_width="match_parent"
@@ -140,7 +140,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Find a recipe"
+                    android:text="@string/update"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
             </LinearLayout>
@@ -160,7 +160,7 @@
                     android:layout_height="64dp"
                     android:layout_width="64dp"
                     android:background="@drawable/circlebackgroundyellow"
-                    android:src="@drawable/ic_cake_black_24dp"
+                    android:src="@drawable/ic_call_black_24dp"
                     android:padding="10dp"
                     />
                 <TextView
@@ -168,7 +168,7 @@
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Timers"
+                    android:text="Contact Us"
                     />
                 <View
                     android:layout_width="match_parent"
@@ -180,7 +180,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Set timers"
+                    android:text="@string/click"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
             </LinearLayout>

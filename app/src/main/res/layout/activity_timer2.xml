@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.o.cincocuisine.Timer2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/oven" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:text="@string/roast"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text_view_countdown2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/button_start_pause2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown2"
+        android:layout_centerHorizontal="true"
+        android:text="start"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+
+    <Button
+        android:id="@+id/button_reset2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown2"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/button_start_pause2"
+        android:layout_toRightOf="@+id/button_start_pause2"
+        android:text="reset"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="258dp"
+        tools:visibility="visible" />
+
+</RelativeLayout>

@@ -28,7 +28,12 @@
         <activity android:name=".Recipe1" />
         <activity android:name=".Recipe2" />
         <activity android:name=".Recipe3" />
-        <activity android:name=".Recipe4"></activity>
+        <activity android:name=".Recipe4" />
+        <activity android:name=".Timer1" />
+        <activity android:name=".Timer2" />
+        <activity android:name=".Timer3" />
+        <activity android:name=".Timer4" />
+        <activity android:name=".ProfileP"></activity>
     </application>
 
 </manifest>
